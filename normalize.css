@@ -1,4 +1,13 @@
 /*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/*!  little adjustments                                                   */
+
+
+/* Set Border Box Model */
+*, *:before, *:after {
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
 
 /**
  * 1. Change the default font family in all browsers (opinionated).
@@ -201,6 +210,7 @@ sup {
 
 img {
   border-style: none;
+    display: block;
 }
 
 /**
